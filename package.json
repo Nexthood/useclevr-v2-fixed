@@ -1,0 +1,28 @@
+{
+  "name": "useclevr-v2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "chart.js": "^4.4.1",
+    "lucide-react": "^0.403.0",
+    "next": "14.1.0",
+    "openai": "^4.29.0",
+    "papaparse": "^5.4.1",
+    "pdfkit": "^0.14.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "recharts": "^2.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1"
+  }
+}
