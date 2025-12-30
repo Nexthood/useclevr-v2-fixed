@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth transitions for light ↔ dark */
+* {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Enable browser system dark mode awareness */
+html {
+  color-scheme: light dark;
+}
+
+/* Default Light Mode (body background & text) */
+body {
+  background: #f7f7f7;
+  color: #111;
+}
+
+/* Dark Mode (automatically applied when <html class="dark"> is active) */
+html.dark body {
+  background: #0B0B12;
+  color: #fff;
+}
+
+/* Optional: Scrollbar styling for better UI */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #333;
+}
