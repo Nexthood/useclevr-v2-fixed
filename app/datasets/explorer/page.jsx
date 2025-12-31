@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import KpiCard from "@/components/dataset/KpiCard";
+import KpiCard from "@/components";
 import Link from "next/link";
 
 export default function ExplorerPage() {
