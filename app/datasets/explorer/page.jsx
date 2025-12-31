@@ -1,4 +1,4 @@
-import KpiCard from "../../../components/KpiCard";
+import KpiCard from "@/app/components/KpiCard";
 
 export default function ExplorerPage() {
   return (
