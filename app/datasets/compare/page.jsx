@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { supabase } from "@/lib/supabaseClient";
-import CompareChart from "@/components/dataset/CompareChart";
+import CompareChart from "@/components/CompareChart";
 
 export default function ComparePage() {
   const [datasets, setDatasets] = useState([]);
