@@ -1,4 +1,4 @@
-import CompareChart from "../../../components/CompareChart";
+import CompareChart from "@/app/components/CompareChart";
 
 export default function ComparePage() {
   return (
