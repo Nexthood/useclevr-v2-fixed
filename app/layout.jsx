@@ -4,8 +4,8 @@ import "./globals.css";
 import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 
-import Sidebar from "@/components/Sidebar";
-import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar.jsx";
+import Navbar from "@/components/Navbar.jsx";
 
 export default function RootLayout({ children }) {
   // Theme (light / dark)
